@@ -23,4 +23,6 @@ let incognita:unknown=5            //incognita es tipo number
 incognita=false                    //incognita es tipo boolean
 incognita="Ahora es un string"     //incognita es tipo string
 
-
+/* También existe el tipo void pero aplicarlo a variables no es muy útil porque no pueden
+tener ningún valor */
+let nada:void
