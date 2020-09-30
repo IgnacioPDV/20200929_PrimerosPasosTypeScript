@@ -37,10 +37,9 @@ varios="string"
 de varios tipos */
 let lista1:number[]                 //IMPORTANTE no olvidar los corchetes sino será tipo number
 let lista2:Array<string>
-let lista3:number|boolean|string[]
+let lista3:Array<string|number|boolean>
 lista3=["4","hola"]                 //Aunque lista3 acepte varios tipos todos sus elementos deben 
-                                    //ser del mismo tipo
-
+lista3=[4,4,2]                      //ser del mismo tipo
 
 /* Podemos crear nuestros propios tipos(enumerados) haciendo uso de enum */
 enum Trabajo {
