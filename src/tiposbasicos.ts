@@ -40,3 +40,16 @@ let lista2:Array<string>
 let lista3:number|boolean|string[]
 lista3=["4","hola"]                 //Aunque lista3 acepte varios tipos todos sus elementos deben 
                                     //ser del mismo tipo
+
+
+/* Podemos crear nuestros propios tipos(enumerados) haciendo uso de enum */
+enum Trabajo {
+    Profesor,           //A cada uno de los elementos del enumerado se le asigna
+    Director,           //un número empezando desde 0 aunque se le pueden poner 
+    Mantenimiento       //manualmente
+}
+
+let persona1:Trabajo=Trabajo.Director //Creamos persona1, de tipo Trabajo  y valor Director
+let persona2:String=Trabajo[0]        //Creamos persona2, de tipo String y valor Profesor
+
+console.log(persona2)                 //Sacaremos por pantalla "Profesor"
