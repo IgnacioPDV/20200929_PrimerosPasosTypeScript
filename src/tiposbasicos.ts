@@ -4,14 +4,14 @@
 darle un valor a la variable al crearla (será del tipo de dato que le demos) o
 declarar el tipo de variable  */
 
-let test1; //tipo any
-let test2=false //tipo boolean
-let test3:number //tipo number 
+let test1;               //tipo any
+let test2=false          //tipo boolean
+let test3:number         //tipo number 
 let test4:string="false" //tipo string
 
 /* El tipo number recoge diferentes tipos numeros */
 
-let decimal=6 //decimales
+let decimal=6          //decimales
 let hexadecimal=0x0007 //hexadecimal
 
 console.log(decimal+hexadecimal) //como podemos comprobar con esta sencilla cuenta, al sumar 
