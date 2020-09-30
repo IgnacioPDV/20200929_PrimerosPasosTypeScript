@@ -26,3 +26,17 @@ incognita="Ahora es un string"     //incognita es tipo string
 /* También existe el tipo void pero aplicarlo a variables no es muy útil porque no pueden
 tener ningún valor */
 let nada:void
+
+/* Se pueden crear variables que puedan ser de más de un tipo usando el caracter | */
+let varios:number|boolean|string
+varios=34         
+varios=false      
+varios="string"   
+
+/* Hay dos formas de declarar los arrays, además podemos hacer uso de | para crear arrays
+de varios tipos */
+let lista1:number[]                 //IMPORTANTE no olvidar los corchetes sino será tipo number
+let lista2:Array<string>
+let lista3:number|boolean|string[]
+lista3=["4","hola"]                 //Aunque lista3 acepte varios tipos todos sus elementos deben 
+                                    //ser del mismo tipo
