@@ -49,7 +49,7 @@ enum Trabajo {
 }
 
 let persona1:Trabajo=Trabajo.Director //Creamos persona1, de tipo Trabajo  y valor Director
-let persona2:String=Trabajo[0]        //Creamos persona2, de tipo String y valor Profesor
+let persona2:string=Trabajo[0]        //Creamos persona2, de tipo String y valor Profesor
 
 console.log(persona2)                 //Sacaremos por pantalla "Profesor"
 console.log(persona1)                 //Aqui sacamos por pantalla 1
